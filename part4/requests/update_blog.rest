@@ -1,0 +1,10 @@
+PUT http://localhost:3003/api/blogs/71201e1d03bf7e214dy78956 HTTP/1.1
+content-type: application/json
+
+{
+    "id": "71201e1d03bf7e214dy78956",
+    "title": "First entry title",
+    "author": "John Smith",
+    "url": "http://www.johnblog.com/",
+    "likes": 12
+}
